@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.69])
+AC_PREREQ([2.62])
 AC_INIT(hello, 1.0, hello@example.com)
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([src/hello.c])
