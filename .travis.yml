@@ -5,3 +5,12 @@ compiler:
  - gcc
  - clang
 
+install:
+ - aclocal
+ - autoheader
+ - autoconf
+ - automake --add-missing
+
+script:
+ - ./configure
+ - make
